@@ -1,6 +1,7 @@
 {
   "name": "grub-theme-syntax-highlighter",
   "publisher": "Udon",
+  "icon": "icon.png",
   "license": "MIT",
   "displayName": "GRUB Theme Syntax Highlighter",
   "description": "Syntax highlighting for the GRUB theme.txt file.",
