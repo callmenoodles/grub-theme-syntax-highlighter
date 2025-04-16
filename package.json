@@ -2,7 +2,7 @@
   "name": "grub-theme-syntax-highlighter",
   "displayName": "GRUB Theme Syntax Highlighter",
   "description": "Syntax highlighting for the GRUB theme.txt file.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.99.0"
   },
@@ -19,7 +19,7 @@
     }],
     "grammars": [{
       "language": "grub-theme",
-      "scopeName": "source.grub-theme",
+      "scopeName": "source.grub.theme",
       "path": "./syntaxes/grub-theme.tmLanguage.json"
     }]
   }

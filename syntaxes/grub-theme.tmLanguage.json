@@ -1,6 +1,6 @@
 {
   "name": "GRUB Theme",
-  "scopeName": "source.grub-theme",
+  "scopeName": "source.grub.theme",
   "patterns": [
     { "include": "#html_colors" },
     { "include": "#rgb_colors" },
@@ -15,11 +15,11 @@
     "components": {
       "begin": "^\\+\\s*(label|image|progress_bar|circular_progress|boot_menu)",
       "beginCaptures": {
-        "0": { "name": "entity.name.function.grub-theme" }
+        "0": { "name": "entity.name.function.grub.theme" }
       },
       "end": "\\}",
       "endCaptures": {
-        "0": { "name": "entity.name.function.grub-theme" }
+        "0": { "name": "entity.name.function.grub.theme" }
       },
       "patterns": [
         { "include": "#strings" },
@@ -33,56 +33,56 @@
     },
     "id": {
       "match": "\\b__(timeout)__\\b",
-      "name": "keyword.other.grub-theme"
+      "name": "keyword.other.grub.theme"
     },
     "comments": {
       "match": "^\\s*#.*$",
-      "name": "comment.line.number-sign.grub-theme"
+      "name": "comment.line.number-sign.grub.theme"
     },
     "global_properties": {
       "match": "^(title-text|title-font|title-color|message-font|message-color|message-bg-color|desktop-image-scale-method|desktop-image-h-align|desktop-image-v-align|desktop-image|desktop-color|terminal-box|terminal-border|terminal-left|terminal-top|terminal-width|terminal-height)",
-      "name": "variable.other.grub-theme"
+      "name": "variable.other.grub.theme"
     },
     "component_properties": {
       "match": "^\\s*(left|top|width|height|id|text|font|color|align|visible|item_font|item_color|selected_item_font|selected_item_color|icon_width|icon_height|item_height|item_padding|item_icon_space|item_spacing|selected_item_pixmap_style|scrollbar|scrollbar_thumb|scrollbar_frame|menu_pixmap_style|item_pixmap_style|scrollbar_thumb_overlay|file|fg_color|bg_color|border_color|text_color|bar_style|highlight_style|highlight_overlay|center_bitmap|tick_bitmap|num_ticks|ticks_disappear|start_angle)\\b",
-      "name": "support.variable.grub-theme"
+      "name": "support.variable.grub.theme"
     },
     "specials": {
       "match": "(%d|@TIMEOUT_NOTIFICATION_SHORT@|@TIMEOUT_NOTIFICATION_MIDDLE@|@TIMEOUT_NOTIFICATION_LONG@)",
-      "name": "keyword.other.grub-theme"
+      "name": "keyword.other.grub.theme"
     },
     "values": {
       "match": "-?\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?%?",
-      "name": "constant.numeric.grub-theme"
+      "name": "constant.numeric.grub.theme"
     },
     "operators": {
       "match": "[*/]",
-      "name": "keyword.operator.grub-theme"
+      "name": "keyword.operator.grub.theme"
     },
     "signs": {
       "match": "(?<=[\\w%\\)])[ \t]*[+-][ \t]*(?=[\\w(])",
-      "name": "keyword.operator.grub-theme"
+      "name": "keyword.operator.grub.theme"
     },
     "html_colors": {
       "match": "(?<=^|[\\s\"]|'|`)#([0-9a-fA-F]{6}|[0-9a-fA-F]{3})\\b",
-      "name": "constant.numeric.grub-theme"
+      "name": "constant.numeric.grub.theme"
     },
     "rgb_colors": {
       "match": "\\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?),\\s*){2}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\b",
-      "name": "constant.numeric.grub-theme"
+      "name": "constant.numeric.grub.theme"
     },
     "svg_colors": {
       "match": "\\b(?:aliceblue|antiquewhite|aqua|aquamarine|azure|beige|bisque|black|blanchedalmond|blue|blueviolet|brown|burlywood|cadetblue|chartreuse|chocolate|coral|cornflowerblue|cornsilk|crimson|cyan|darkblue|darkcyan|darkgoldenrod|darkgray|darkgreen|darkkhaki|darkmagenta|darkolivegreen|darkorange|darkorchid|darkred|darksalmon|darkseagreen|darkslateblue|darkslategray|darkturquoise|darkviolet|deeppink|deepskyblue|dimgray|dodgerblue|firebrick|floralwhite|forestgreen|fuchsia|gainsboro|ghostwhite|gold|goldenrod|gray|green|greenyellow|honeydew|hotpink|indianred|indigo|ivory|khaki|lavender|lavenderblush|lawngreen|lemonchiffon|lightblue|lightcoral|lightcyan|lightgoldenrodyellow|lightgray|lightgreen|lightpink|lightsalmon|lightseagreen|lightskyblue|lightslategray|lightsteelblue|lightyellow|lime|limegreen|linen|magenta|maroon|mediumaquamarine|mediumblue|mediumorchid|mediumpurple|mediumseagreen|mediumslateblue|mediumspringgreen|mediumturquoise|mediumvioletred|midnightblue|mintcream|mistyrose|moccasin|navajowhite|navy|oldlace|olive|olivedrab|orange|orangered|orchid|palegoldenrod|palegreen|paleturquoise|palevioletred|papayawhip|peachpuff|peru|pink|plum|powderblue|purple|red|rosybrown|royalblue|saddlebrown|salmon|sandybrown|seagreen|seashell|sienna|silver|skyblue|slateblue|slategray|snow|springgreen|steelblue|tan|teal|thistle|tomato|turquoise|violet|wheat|white|whitesmoke|yellow|yellowgreen)\\b",
-      "name": "constant.numeric.grub-theme"
+      "name": "constant.numeric.grub.theme"
     },
     "strings": {
       "begin": "\"",
       "beginCaptures": {
-        "0": { "name": "string.quoted.grub-theme" }
+        "0": { "name": "string.quoted.grub.theme" }
       },
       "end": "\"",
       "endCaptures": {
-        "0": { "name": "string.quoted.grub-theme" }
+        "0": { "name": "string.quoted.grub.theme" }
       },
       "patterns": [
         { "include": "#id" },
@@ -91,7 +91,7 @@
         { "include": "#svg_colors" },
         { "include": "#specials" }
       ],
-      "name": "string.quoted.grub-theme"
+      "name": "string.quoted.grub.theme"
     }
   }
 }
