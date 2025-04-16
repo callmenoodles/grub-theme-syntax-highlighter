@@ -1,8 +1,14 @@
 {
   "name": "grub-theme-syntax-highlighter",
+  "publisher": "Udon",
+  "license": "MIT",
   "displayName": "GRUB Theme Syntax Highlighter",
   "description": "Syntax highlighting for the GRUB theme.txt file.",
   "version": "0.0.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/callmenoodles/grub-theme-syntax-highlighter"
+  },
   "engines": {
     "vscode": "^1.99.0"
   },
