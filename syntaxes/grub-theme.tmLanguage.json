@@ -40,7 +40,7 @@
       "name": "comment.line.number-sign.grub.theme"
     },
     "global_properties": {
-      "match": "^(title-text|title-font|title-color|message-font|message-color|message-bg-color|desktop-image-scale-method|desktop-image-h-align|desktop-image-v-align|desktop-image|desktop-color|terminal-box|terminal-border|terminal-left|terminal-top|terminal-width|terminal-height)",
+      "match": "^(title-text|title-font|title-color|message-font|message-color|message-bg-color|desktop-image-scale-method|desktop-image-h-align|desktop-image-v-align|desktop-image|desktop-color|terminal-box|terminal-border|terminal-left|terminal-top|terminal-width|terminal-height|terminal-font)",
       "name": "variable.other.grub.theme"
     },
     "component_properties": {
